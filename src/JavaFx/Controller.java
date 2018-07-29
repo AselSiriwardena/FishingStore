@@ -22,11 +22,17 @@ public class Controller{
     public PasswordField enteredPassword;
 
 
+
+
     private static String userRegNo;
 
-    public static String getUserRegNo() {
+    public static void userRegNoReset () {
+        Controller.userRegNo = null;
+    }
 
-        return userRegNo;
+    public static int getUserRegNo() {
+
+        return Integer.parseInt(userRegNo);
     }
 
     /*       ^                 # start-of-string
@@ -103,7 +109,6 @@ public class Controller{
                 dashB.dashBoard();
                 Main.getpStage().close();
 
-                System.out.println(userRegNo);
                 System.out.println("SignInSuccess");
 
             }
@@ -116,6 +121,7 @@ public class Controller{
         }
 
 
+        System.out.println(Controller.getUserRegNo());
 
     }
 

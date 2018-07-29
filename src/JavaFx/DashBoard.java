@@ -37,8 +37,8 @@ public class DashBoard {
 
 
     public void openShop(ActionEvent actionEvent) {
-        Dash.close();
         Buy.Cart();
+        Dash.close();
 
     }
 
@@ -52,7 +52,14 @@ public class DashBoard {
 
 
 
-    public void logOut(ActionEvent actionEvent) {
+    public void logOutFromDash(ActionEvent actionEvent) {
+        Main.getpStage().show();
+        Dash.close();
+
+        Controller.userRegNoReset();
+        Buy.cartReset();
+
+
 
     }
 }

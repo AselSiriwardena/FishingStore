@@ -10,9 +10,9 @@
         <Label layoutX="14.0" layoutY="44.0" prefHeight="18.0" prefWidth="113.0" text="Registration No   :" />
         <Label fx:id="cusName" layoutX="134.0" layoutY="15.0" prefHeight="18.0" prefWidth="90.0" />
         <Label fx:id="cusRegNo" layoutX="134.0" layoutY="44.0" prefHeight="18.0" prefWidth="90.0" text="CUSNO" />
-        <Button layoutX="71.0" layoutY="142.0" mnemonicParsing="false" onAction="#openProfile" prefHeight="116.0" prefWidth="154.0" text="Profile" />
-        <Button layoutX="266.0" layoutY="142.0" mnemonicParsing="false" onAction="#openShop" prefHeight="116.0" prefWidth="154.0" text="Shop" />
-        <Button layoutX="462.0" layoutY="142.0" mnemonicParsing="false" onAction="#openLastTranaction" prefHeight="116.0" prefWidth="154.0" text="Last Transactions" />
-      <Button layoutX="617.0" layoutY="21.0" mnemonicParsing="false" onAction="#logOut" text="Logout" />
+        <Button layoutX="71.0" layoutY="142.0" mnemonicParsing="false" onAction="#openProfile" prefHeight="116.0" prefWidth="154.0" style="-fx-background-color: #1976D2;" text="Profile" />
+        <Button layoutX="266.0" layoutY="142.0" mnemonicParsing="false" onAction="#openShop" prefHeight="116.0" prefWidth="154.0" style="-fx-background-color: #1976D2;" text="Shop" />
+        <Button layoutX="462.0" layoutY="142.0" mnemonicParsing="false" onAction="#openLastTranaction" prefHeight="116.0" prefWidth="154.0" style="-fx-background-color: #1976D2;" text="Last Transactions" />
+        <Button layoutX="617.0" layoutY="21.0" mnemonicParsing="false" onAction="#logOutFromDash" style="-fx-background-color: #1976D2;" text="Logout" />
     </children>
 </AnchorPane>

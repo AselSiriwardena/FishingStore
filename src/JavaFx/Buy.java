@@ -1,5 +1,6 @@
 package JavaFx;
 
+import conectivity.ConnectionClass;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -8,8 +9,9 @@ import javafx.scene.control.*;
 import javafx.stage.Stage;
 import javafx.event.ActionEvent;
 
+import java.sql.*;
 
-public class Buy extends DashBoard{
+public class Buy extends DashBoard {
 
     public ComboBox addFHooks;
     public ComboBox addFLine;
@@ -30,8 +32,8 @@ public class Buy extends DashBoard{
     public Label nuOfItems;
     public Label totalAmount;
 
-    private double cartTotal;
-    private int totalItems;
+    private static double cartTotal;
+    private static int totalItems;
 
     public double getCartTotal() {
         return cartTotal;
@@ -52,13 +54,20 @@ public class Buy extends DashBoard{
 
     }
 
+    public static void cartReset(){
+        cartTotal = 0;
+        totalItems = 0;
+    }
+
 
     @FXML
     // fx:id="combo"
     private ComboBox<String> combo; // Value injected by FXMLLoader
 
+    static Stage primary = null;
+
     public static void Cart() {
-        Stage primary = new Stage();
+        primary = new Stage();
         Parent root = null;
         try {
             root = FXMLLoader.load(Buy.class.getResource("../Interfaces/Cart.fxml"));
@@ -85,7 +94,7 @@ public class Buy extends DashBoard{
 
                 setCartTotal(itemValue);
                 setTotalItems(quantity);
-                addToLinkedList("Hooks","#2",quantity,itemValue);
+                addToLinkedList("Hooks", "#2", quantity, itemValue);
 
             } else if (addFHooks.getValue().toString().equals("#4") && MessageBox.conMessage((Double.parseDouble(fHooksQ.getText())))) {
                 itemValue = Integer.parseInt(fHooksQ.getText());
@@ -93,7 +102,7 @@ public class Buy extends DashBoard{
 
                 setCartTotal(itemValue);
                 setTotalItems(quantity);
-                addToLinkedList("Hooks","#4",quantity,itemValue);
+                addToLinkedList("Hooks", "#4", quantity, itemValue);
 
 
             } else if (addFHooks.getValue().toString().equals("#6") && MessageBox.conMessage((Double.parseDouble(fHooksQ.getText())) * 1.25)) {
@@ -102,7 +111,7 @@ public class Buy extends DashBoard{
 
                 setCartTotal(itemValue);
                 setTotalItems(quantity);
-                addToLinkedList("Hooks","#2",quantity,itemValue);
+                addToLinkedList("Hooks", "#2", quantity, itemValue);
 
             }
         } catch (NullPointerException e) {
@@ -124,7 +133,7 @@ public class Buy extends DashBoard{
 
                 setCartTotal(itemValue);
                 setTotalItems(quantity);
-                addToLinkedList("Rod","3m",quantity,itemValue);
+                addToLinkedList("Rod", "3m", quantity, itemValue);
 
 
             } else if (addFRod.getValue().toString().equals("5m") && MessageBox.conMessage((Double.parseDouble(fRodQ.getText())) * 120)) {
@@ -133,7 +142,7 @@ public class Buy extends DashBoard{
 
                 setCartTotal(itemValue);
                 setTotalItems(quantity);
-                addToLinkedList("Rod","5m",quantity,itemValue);
+                addToLinkedList("Rod", "5m", quantity, itemValue);
 
 
             } else if (addFRod.getValue().toString().equals("7m") && MessageBox.conMessage((Double.parseDouble(fRodQ.getText())) * 150)) {
@@ -142,7 +151,7 @@ public class Buy extends DashBoard{
 
                 setCartTotal(itemValue);
                 setTotalItems(quantity);
-                addToLinkedList("Rod","7m",quantity,itemValue);
+                addToLinkedList("Rod", "7m", quantity, itemValue);
 
             }
         } catch (NullPointerException e) {
@@ -294,11 +303,11 @@ public class Buy extends DashBoard{
     }
 
 
-    CartLinkedList pointer = new CartLinkedList("","",0,0,null);;
+    CartLinkedList pointer = new CartLinkedList("", "", 0, 0, null);
 
-    public void addToLinkedList(String itemName, String size, int quantity, double total){
+    public void addToLinkedList(String itemName, String size, int quantity, double total) {
 
-        CartLinkedList temp = new CartLinkedList("","",0,0,null);
+        CartLinkedList temp = new CartLinkedList("", "", 0, 0, null);
         pointer.setItemName(itemName);
         pointer.setSize(size);
         pointer.setQuantity(quantity);
@@ -309,13 +318,44 @@ public class Buy extends DashBoard{
         pointer = temp;
 
     }
+
     CartLinkedList current = pointer;
 
     public void buyFinal(ActionEvent actionEvent) {
-        while (current != null) {
-            System.out.println(current.getItemName()+" "+current.getSize()+" "+current.getQuantity());
+
+        ConnectionClass ConClass = new ConnectionClass();
+        Connection connection = ConClass.getConnection();
+
+        while (current.getNext()!= null) {
+            System.out.println(current.getItemName() + " " + current.getSize() + " " + current.getQuantity());
+
+
+            String recordPurchase = "INSERT INTO `purchace` (`customerRegNo`, `item`, `size`, `itemValue`, `quantity`, `date`) VALUES ('"+Controller.getUserRegNo()+"', '"+current.getItemName()+"', '"+current.getSize()+"', '"+current.getTotal()+"', '"+current.getQuantity()+"', '"+java.time.LocalDate.now()+"')";
+
+            try {
+                Statement statement = connection.createStatement();
+                statement.executeUpdate(recordPurchase);
+
+            } catch (SQLException e) {
+                Alert alert = new Alert(Alert.AlertType.ERROR);
+                alert.setTitle("Something gone Wrong!");
+                alert.setHeaderText("Database Error !");
+                alert.showAndWait();
+                e.printStackTrace();
+            }
+
             current = current.getNext();
+
         }
+
+
+    }
+
+    public void logOutFromCart(ActionEvent actionEvent) {
+        Main.getpStage().show();
+        Buy.primary.close();
+        cartReset();
+
     }
 }
 
