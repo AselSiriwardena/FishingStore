@@ -1,6 +1,8 @@
 package JavaFx;
 
+import Reusables.MessageBox;
 import conectivity.ConnectionClass;
+import javafx.event.ActionEvent;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
@@ -11,7 +13,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Controller{
+public class Controller {
     public TextField SUPassword;
     public TextField SUPasswordCon;
     public Label chkPassAlert;
@@ -20,19 +22,36 @@ public class Controller{
     public TextField SUAddress;
     public TextField enteredEmail;
     public PasswordField enteredPassword;
-
-
+    public TextField SUMobile;
 
 
     private static String userRegNo;
+    private static String userName;
+    private static String userEmail;
+    private static String userAddress;
 
-    public static void userRegNoReset () {
+    public static String getUserAddress() {
+        return userAddress;
+    }
+
+    public static String getUserEmail() {
+        return userEmail;
+    }
+
+    public static String getUserName() {
+        return userName;
+    }
+
+    public static void userRegNoReset() {
         Controller.userRegNo = null;
     }
 
     public static int getUserRegNo() {
 
         return Integer.parseInt(userRegNo);
+    }
+    public static String getStringUserReNo(){
+        return userRegNo;
     }
 
     /*       ^                 # start-of-string
@@ -44,7 +63,7 @@ public class Controller{
             $                 # end-of-string
       */
 
-    public void SignUp()  {
+    public void SignUp() {
 
         ConnectionClass ConClass = new ConnectionClass();
         Connection connection = ConClass.getConnection();
@@ -57,32 +76,31 @@ public class Controller{
             while (rs.next()) {
                 regNo = (rs.getInt("Regno")) + 1;
             }
-            if (SUPassword.getText().equals(SUPasswordCon.getText())){
+            if (SUPassword.getText().equals(SUPasswordCon.getText())) {
 
-                if (SUPassword.getText().matches("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\\S+$).{8,}$")){
+                if (SUPassword.getText().matches("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\\S+$).{8,}$")) {
 
-                    String newUserSQL = "INSERT INTO `Customer` (`Name`, `Email`, `Address`, `Password`, `RegNo`) VALUES ('" + SUName.getText()
-                            + "', '" + SUEmail.getText() + "', '" + SUAddress.getText() + "', '" + SUPassword.getText() + "','" + regNo + "')";
+                    String newUserSQL = "INSERT INTO `Customer` (`Name`, `Email`, `phoneNo`,`Address`, `Password`, `RegNo`) VALUES ('" + SUName.getText()
+                            + "', '" + SUEmail.getText() + "','" + SUMobile.getText() + "', '" + SUAddress.getText() + "', '" + SUPassword.getText() + "','" + regNo + "')";
                     statement.executeUpdate(newUserSQL);
 
                     System.out.println("SignUpSuccess");
 
 
-                }else {
+                } else {
                     chkPassAlert.setText("Password must be contain \n" +
                             "with at least 8 characters \n" +
                             "including uppercase letter \n" +
                             "and a number !\n");
 
                 }
-            }else {
+            } else {
                 MessageBox.loginErr();
             }
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
 
 
     }
@@ -94,7 +112,8 @@ public class Controller{
 
         ConnectionClass ConClass = new ConnectionClass();
         Connection connection = ConClass.getConnection();
-        String getUserPassword = "SELECT PASSWORD, RegNo FROM `customer` WHERE Email = '"+emailE+"' ;";
+        //getting users all data to use in Buy Class
+        String getUserPassword = "SELECT PASSWORD, RegNo , Name, Address , Email FROM `customer` WHERE Email = '" + emailE + "' ;";
 
         try {
             Statement statement = connection.createStatement();
@@ -104,6 +123,9 @@ public class Controller{
             rs.next();
             if (rs.getString("Password").equals(passwordE)) {
                 userRegNo = rs.getString("RegNo");
+                userName = rs.getString("Name");
+                userEmail = rs.getString("Email");
+
                 System.out.println("done");
                 DashBoard dashB = new DashBoard();
                 dashB.dashBoard();
@@ -126,4 +148,8 @@ public class Controller{
     }
 
 
+    public void loginOS(ActionEvent actionEvent) {
+        OSlogin.OSLogin();
+        Main.getpStage().close();
+    }
 }

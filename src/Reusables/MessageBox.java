@@ -1,4 +1,4 @@
-package JavaFx;
+package Reusables;
 
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
@@ -18,27 +18,45 @@ public class MessageBox {
         Optional<ButtonType> result = alert.showAndWait();
         if ((result.isPresent()) && (result.get() == ButtonType.OK)) {
             return true;
-        }else {
+        } else {
             return false;
         }
 
     }
 
-    public static void errMsg(String val){
+    public static void errMsg(String val) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle(val);
         alert.setHeaderText(null);
-        alert.setContentText("Please choose item "+val+" !");
+        alert.setContentText("Please choose item " + val + " !");
 
         alert.showAndWait();
     }
 
-    public static void loginErr(){
+    public static void loginErr() {
         Alert alert = new Alert(Alert.AlertType.ERROR);
         alert.setTitle("Password Mismatch");
         alert.setHeaderText(null);
         alert.setContentText("Password does not match the confirm password ! ");
         alert.showAndWait();
 
+    }
+
+    public static void passwordERR() {
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setTitle("Password  Mismatch");
+        alert.setHeaderText(null);
+        alert.setContentText("Password does not match! ");
+        alert.showAndWait();
+
+    }
+
+    public static void success () {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Success");
+        alert.setHeaderText(null);
+        alert.setContentText("The invoice was sent to your email!");
+
+        alert.showAndWait();
     }
 }

@@ -8,34 +8,35 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="RIGHT_TO_LEFT" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFx.Controller">
-  <tabs>
+<TabPane fx:controller="JavaFx.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="RIGHT_TO_LEFT" prefHeight="453.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <tabs>
       <Tab closable="false" text="Sign In">
-        <content>
-          <AnchorPane focusTraversable="true" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <content>
+            <AnchorPane focusTraversable="true" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
                   <TextField fx:id="enteredEmail" alignment="CENTER" layoutX="232.0" layoutY="76.0" promptText="Email" />
                   <Button layoutX="282.0" layoutY="198.0" mnemonicParsing="false" onAction="#SignIn" text="Sign In" />
                   <PasswordField fx:id="enteredPassword" alignment="CENTER" layoutX="232.0" layoutY="145.0" promptText="Password" />
-                  <Button layoutX="22.0" layoutY="294.0" mnemonicParsing="false" text="Owner Login" />
-                  <Button layoutX="126.0" layoutY="294.0" mnemonicParsing="false" text="Staff Login" />
+                  <Button layoutX="14.0" layoutY="294.0" mnemonicParsing="false" onAction="#loginOS" text="Owner &amp; Staff Login " />
                </children>
             </AnchorPane>
-        </content>
+         </content>
       </Tab>
-    <Tab closable="false" text="Sign Up">
-      <content>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+      <Tab closable="false" text="Sign Up">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
-                  <TextField fx:id="SUPassword" alignment="CENTER" layoutX="221.0" layoutY="163.0" promptText="Password" />
+                  <TextField fx:id="SUPassword" alignment="CENTER" layoutX="221.0" layoutY="196.0" promptText="Password" />
                   <TextField fx:id="SUEmail" alignment="CENTER" layoutX="221.0" layoutY="71.0" promptText="Email" />
                   <TextField fx:id="SUName" alignment="CENTER" layoutX="221.0" layoutY="23.0" promptText="Name" />
                   <TextField fx:id="SUAddress" alignment="CENTER" layoutX="221.0" layoutY="116.0" promptText="Address" />
-                  <Button fx:id="SignUp" layoutX="269.0" layoutY="254.0" mnemonicParsing="false" onMouseClicked="#SignUp" text="Sign Up" />
-                  <TextField fx:id="SUPasswordCon" alignment="CENTER" layoutX="221.0" layoutY="207.0" promptText="Confirm Password" />
+                  <Button fx:id="SignUp" layoutX="263.0" layoutY="280.0" mnemonicParsing="false" onMouseClicked="#SignUp" text="Sign Up" />
+                  <TextField fx:id="SUPasswordCon" alignment="CENTER" layoutX="225.0" layoutY="235.0" promptText="Confirm Password" />
                   <Label fx:id="chkPassAlert" alignment="TOP_RIGHT" contentDisplay="CENTER" layoutX="24.0" layoutY="150.0" prefHeight="146.0" prefWidth="182.0" textAlignment="JUSTIFY" textFill="#bf2222b2" />
-               </children></AnchorPane>
-      </content>
-    </Tab>
-  </tabs>
+                  <TextField fx:id="SUMobile" alignment="CENTER" layoutX="221.0" layoutY="157.0" promptText="Mobile Number" />
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+   </tabs>
 </TabPane>

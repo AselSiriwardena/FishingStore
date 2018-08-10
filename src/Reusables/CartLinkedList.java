@@ -1,4 +1,4 @@
-package JavaFx;
+package Reusables;
 
 public class CartLinkedList {
     String itemName;

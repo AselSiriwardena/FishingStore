@@ -22,20 +22,3 @@ public class ConnectionClass {
         return connection;
     }
 }
-
-  /*ConnectionClass ConClass = new ConnectionClass();
-        Connection connection = ConClass.getConnection();
-        String getRegNoSQL="SELECT Regno FROM `customer`;";
-
-        try {
-            Statement statement = connection.createStatement();
-            ResultSet rs = statement.executeQuery(getRegNoSQL);
-            while (rs.next()){
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }*/
-
-        /*amountCol.setCellValueFactory(new PropertyValueFactory("firstName"));
-        amountCol.cellFactoryProperty().setValue("wddae");
-        amountCol.getColumns().get(1)*/

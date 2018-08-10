@@ -79,8 +79,22 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaFx/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="336">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/conectivity/ConnectionClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,36 +105,16 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaFx/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="1870">
+              <caret line="114" column="52" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Profile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JavaFx/Profile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DashBoard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaFx/DashBoard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1107#1108#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,79 +123,91 @@
       <file leaf-file-name="Buy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaFx/Buy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5093">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="6834">
+              <caret line="402" column="65" selection-start-line="402" selection-start-column="65" selection-end-line="402" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#setCartTotal#0;class#Buy#0" />
-                <element signature="method#setTotalItems#0;class#Buy#0" />
+                <element signature="e#878#879#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dashboard.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Interfaces/Dashboard.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+      <file leaf-file-name="MessageBox.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Reusables/MessageBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
+            <state relative-caret-position="166">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cart.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Interfaces/Cart.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="123" column="96" selection-start-line="123" selection-start-column="96" selection-end-line="123" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Interfaces/Login.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="CartLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaFx/CartLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/Reusables/CartLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="103" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="103" />
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/conectivity/ConnectionClass.java">
+      <file leaf-file-name="DashBoard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaFx/DashBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="340">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Owner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaFx/Owner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="281" selection-start-line="235" selection-end-line="281" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logFile.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logFile.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1938" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OSlogin.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JavaFx/OSlogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,8 +220,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -236,7 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Users.java" />
         <option value="$PROJECT_DIR$/src/Database.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/sample.fxml" />
@@ -251,18 +256,43 @@
         <option value="$PROJECT_DIR$/src/JavaFx/Login.fxml" />
         <option value="$PROJECT_DIR$/src/JavaFx/Dashboard.fxml" />
         <option value="$PROJECT_DIR$/src/JavaFx/Cart.fxml" />
-        <option value="$PROJECT_DIR$/src/conectivity/ConnectionClass.java" />
         <option value="$PROJECT_DIR$/src/JavaFx/Confirmation.java" />
-        <option value="$PROJECT_DIR$/src/JavaFx/Profile.java" />
         <option value="$PROJECT_DIR$/src/JavaFx/MessageBox.java" />
         <option value="$PROJECT_DIR$/src/JavaFx/CartLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/JavaFx/Main.java" />
-        <option value="$PROJECT_DIR$/src/Interfaces/Login.fxml" />
-        <option value="$PROJECT_DIR$/src/JavaFx/Controller.java" />
-        <option value="$PROJECT_DIR$/src/JavaFx/DashBoard.java" />
+        <option value="$PROJECT_DIR$/src/Interfaces/tst.fxml" />
+        <option value="$PROJECT_DIR$/src/JavaFx/tst.java" />
+        <option value="$PROJECT_DIR$/src/JavaFx/trans.java" />
+        <option value="$PROJECT_DIR$/src/JavaFx/Items.java" />
         <option value="$PROJECT_DIR$/src/Interfaces/Dashboard.fxml" />
+        <option value="$PROJECT_DIR$/src/JavaFx/CustomerProf.java" />
+        <option value="$PROJECT_DIR$/src/Interfaces/UpdateInfo.fxml" />
+        <option value="$PROJECT_DIR$/src/Interfaces/Profile.fxml" />
+        <option value="$PROJECT_DIR$/src/JavaFx/UpdateInfo.java" />
         <option value="$PROJECT_DIR$/src/Interfaces/Cart.fxml" />
+        <option value="$PROJECT_DIR$/src/JavaFx/TransactionHistory.java" />
+        <option value="$PROJECT_DIR$/src/Reusables/TransactionHistory.java" />
+        <option value="$PROJECT_DIR$/src/Interfaces/OSLogin.fxml" />
+        <option value="$PROJECT_DIR$/src/JavaFx/OSlogin.java" />
+        <option value="$PROJECT_DIR$/src/Interfaces/Owner.fxml" />
+        <option value="$PROJECT_DIR$/src/Interfaces/AddStaff.java" />
+        <option value="$PROJECT_DIR$/src/Interfaces/NewStaff.fxml" />
+        <option value="$PROJECT_DIR$/logFile.txt" />
+        <option value="$PROJECT_DIR$/src/Interfaces/Staff.fxml" />
+        <option value="$PROJECT_DIR$/src/JavaFx/Profile.java" />
+        <option value="$PROJECT_DIR$/src/JavaFx/AddStaff.java" />
+        <option value="$PROJECT_DIR$/src/JavaFx/Staff.java" />
+        <option value="$PROJECT_DIR$/src/JavaFx/DashBoard.java" />
+        <option value="$PROJECT_DIR$/src/Interfaces/Login.fxml" />
+        <option value="$PROJECT_DIR$/src/Interfaces/Background.fxml" />
+        <option value="$PROJECT_DIR$/src/conectivity/ConnectionClass.java" />
+        <option value="$PROJECT_DIR$/src/JavaFx/Owner.java" />
+        <option value="$PROJECT_DIR$/src/JavaFx/sentMail.java" />
+        <option value="$PROJECT_DIR$/src/JavaFx/SendMail.java" />
+        <option value="$PROJECT_DIR$/src/JavaFx/SendInvoice.java" />
+        <option value="$PROJECT_DIR$/src/JavaFx/Controller.java" />
+        <option value="$PROJECT_DIR$/src/Reusables/MessageBox.java" />
         <option value="$PROJECT_DIR$/src/JavaFx/Buy.java" />
+        <option value="$PROJECT_DIR$/src/JavaFx/Main.java" />
       </list>
     </option>
   </component>
@@ -274,10 +304,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-660" />
-    <option name="y" value="102" />
-    <option name="width" value="1365" />
-    <option name="height" value="728" />
+    <option name="x" value="446" />
+    <option name="y" value="40" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -288,8 +318,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,11 +331,6 @@
               <item name="FishingStore" type="b2602c69:ProjectViewProjectNode" />
               <item name="FishingStore" type="462c0819:PsiDirectoryNode" />
               <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FishingStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FishingStore" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FishingStore" type="b2602c69:ProjectViewProjectNode" />
@@ -332,13 +357,19 @@
             </path>
             <path>
               <item name="FishingStore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FishingStore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Reusables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FishingStore" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,7 +384,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Repositorys/Coursework_2 D&amp;D" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -364,18 +395,24 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="JavaFx" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Reusables" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Aca\Courseworks\FishingStore\src\JavaFx" />
+      <recent name="D:\Aca\Courseworks\FishingStore\src\Log" />
+      <recent name="D:\Aca\Courseworks\FishingStore\src\Interfaces" />
+      <recent name="D:\Aca\Courseworks\FishingStore\resources" />
+      <recent name="D:\Aca\Courseworks\FishingStore\src\CSS" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="JavaFx" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Aca\Courseworks\FishingStore\src\JavaFx" />
       <recent name="D:\Aca\Courseworks\FishingStore\Lib" />
       <recent name="D:\Aca\Courseworks\FishingStore\LIb" />
       <recent name="D:\Aca\Courseworks\FishingStore\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Aca\Courseworks\FishingStore\src\Interfaces" />
-      <recent name="D:\Aca\Courseworks\FishingStore\src\JavaFx" />
-      <recent name="D:\Aca\Courseworks\FishingStore\resources" />
-      <recent name="D:\Aca\Courseworks\FishingStore\src\CSS" />
-      <recent name="D:\Aca\Courseworks\FishingStore\src\sample" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -406,7 +443,7 @@
       </extension>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="sentMail" />
       <module name="FishingStore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -417,6 +454,28 @@
       </extension>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFx.Main" />
+      <module name="FishingStore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reusables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFx.Main" />
+      <module name="FishingStore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaFx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaFx.Main" />
@@ -534,12 +593,22 @@
       <workItem from="1532445761163" duration="1035000" />
       <workItem from="1532450449159" duration="34764000" />
       <workItem from="1532600861292" duration="65470000" />
-      <workItem from="1532851936798" duration="14067000" />
+      <workItem from="1532851936798" duration="14396000" />
+      <workItem from="1532927573541" duration="405000" />
+      <workItem from="1532928893568" duration="1630000" />
+      <workItem from="1533025352173" duration="887000" />
+      <workItem from="1533055408305" duration="19734000" />
+      <workItem from="1533229330343" duration="5360000" />
+      <workItem from="1533270494967" duration="53550000" />
+      <workItem from="1533456266392" duration="8654000" />
+      <workItem from="1533490021856" duration="5037000" />
+      <workItem from="1533620027390" duration="1741000" />
+      <workItem from="1533753908290" duration="13177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116638000" />
+    <option name="totallyTimeSpent" value="227142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -547,36 +616,36 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49739584" weight="0.3375706" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49395972" weight="0.16525424" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5026846" side_tool="true" weight="0.22740114" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5100671" side_tool="true" weight="0.32909605" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49731544" visible="true" weight="0.1539548" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4899329" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57050246" visible="true" weight="0.2181208" />
-      <window_info anchor="right" id="Database" order="5" weight="0.3294271" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.62123615" visible="true" weight="0.16845638" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32885906" />
+      <window_info id="Structure" order="1" sideWeight="0.37876385" side_tool="true" weight="0.25838926" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.21327683" />
-      <window_info id="Favorites" order="4" sideWeight="0.42949757" side_tool="true" weight="0.19798657" />
+      <window_info id="Favorites" order="4" sideWeight="0.171123" side_tool="true" weight="0.21409395" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.72483224" weight="0.41949153" />
       <window_info anchor="right" id="JetGradle" order="6" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32968536" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32768363" />
       <window_info anchor="bottom" id="Changes" order="8" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32968536" />
       <window_info anchor="bottom" id="Profiler" order="9" />
       <window_info anchor="bottom" id="Problems" order="10" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Application Servers" order="11" />
     </layout>
@@ -584,37 +653,37 @@
       <window_info anchor="bottom" id="Application Servers" order="11" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49804688" weight="0.39261284" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.490604" visible="true" weight="0.20762712" />
       <window_info anchor="right" id="JetGradle" order="6" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Profiler" order="9" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Favorites" order="4" sideWeight="0.171123" side_tool="true" visible="true" weight="0.21409395" />
       <window_info anchor="bottom" id="Changes" order="8" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32968536" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5019531" side_tool="true" weight="0.3351573" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50939596" side_tool="true" weight="0.23587571" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49739584" weight="0.3378933" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49395972" weight="0.36299434" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1920573" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82887703" visible="true" weight="0.21409395" />
       <window_info anchor="right" id="Database" order="5" weight="0.3294271" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32968536" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3994528" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.72483224" weight="0.41949153" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,68 +701,113 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JavaFx/DashBoard.java</url>
-          <line>32</line>
+          <line>35</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaFx/DashBoard.java</url>
-          <line>22</line>
+          <url>file://$PROJECT_DIR$/src/JavaFx/Profile.java</url>
+          <line>158</line>
           <properties />
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JavaFx/Main.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/src/JavaFx/Profile.java</url>
+          <line>44</line>
           <properties />
-          <option name="timeStamp" value="20" />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaFx/Profile.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaFx/Buy.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaFx/Buy.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/JavaFx/Controller.java</url>
-          <line>32</line>
+          <line>48</line>
           <properties class="JavaFx.Controller" method="getUserRegNo">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="21" />
+      <option name="time" value="46" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>value</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>profileName</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>amountCol</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dateCol</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tableTransactions</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>FXMLLoader.load(Profile.class.getResource(&quot;../Interfaces/Profile.fxml&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Profile.class.getResource(&quot;../Interfaces/Profile.fxml&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/Staff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="1785">
+          <caret line="105" column="50" selection-start-line="60" selection-start-column="8" selection-end-line="105" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="113" column="63" lean-forward="true" selection-start-line="113" selection-start-column="63" selection-end-line="113" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaFx/Profile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="1785">
+          <caret line="124" column="52" lean-forward="true" selection-start-line="124" selection-start-column="52" selection-end-line="124" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -702,93 +816,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaFx/DashBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/Buy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4692">
-          <caret line="286" selection-start-line="286" selection-end-line="286" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setCartTotal#0;class#Buy#0" />
-            <element signature="method#setTotalItems#0;class#Buy#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/CartLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5950">
-          <caret line="350" column="25" selection-start-line="350" selection-start-column="25" selection-end-line="350" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/Buy.java">
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/AddStaff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="782">
+          <caret line="62" column="184" selection-start-line="62" selection-start-column="184" selection-end-line="62" selection-end-column="184" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#setCartTotal#0;class#Buy#0" />
-            <element signature="method#setTotalItems#0;class#Buy#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/OSlogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/Owner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -796,9 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,6 +864,8 @@
           <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -818,8 +876,12 @@
           <caret column="13" selection-start-column="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -830,6 +892,8 @@
           <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -841,20 +905,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/REp/Youtube-Tutorial/JavaFx JDBC Connection/src/JavaFx/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/REp/Youtube-Tutorial/JavaFx JDBC Connection/src/JavaFx/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/REp/Youtube-Tutorial/JavaFx JDBC Connection/src/JavaFx/Controller.java" />
+    <entry file="file://D:/REp/Youtube-Tutorial/JavaFx JDBC Connection/src/JavaFx/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/JavaFx/Database.java" />
     <entry file="jar://$PROJECT_DIR$/Lib/mysql-connector-java-8.0.11.jar!/com/mysql/jdbc/SocketFactory.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -884,13 +936,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSS/c.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSS/c.css" />
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -899,123 +945,462 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaFx/MainStage.java" />
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/MessageBox.java">
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/tst.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.base/javafx/beans/value/WritableObjectValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="64">
+          <caret line="52" column="17" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.controls/javafx/scene/control/TableView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="863" column="57" selection-start-line="863" selection-start-column="57" selection-end-line="863" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/com/sun/glass/ui/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="555" selection-start-line="555" selection-end-line="555" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.base/javafx/collections/FXCollections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="366" selection-start-line="366" selection-end-line="366" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="1295" column="21" selection-start-line="1295" selection-start-column="21" selection-end-line="1295" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="2468" selection-start-line="2468" selection-end-line="2468" />
+          <folding>
+            <element signature="e#72611#72619#0" expanded="true" />
+            <element signature="e#72678#72696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reusables/Items.java" />
+    <entry file="file://$PROJECT_DIR$/src/Reusables/CustomerProf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reusables/TransactionHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="41" lean-forward="true" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/UpdateInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/logFile.txt" />
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/AddStaff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="782">
+          <caret line="62" column="184" selection-start-line="62" selection-start-column="184" selection-end-line="62" selection-end-column="184" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/conectivity/ConnectionClass.java">
+    <entry file="uml://JAVA/JavaFx.DashBoard">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>JavaFx.DashBoard</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">JavaFx.DashBoard</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-185.0" y="12.0" />
+          <SelectedNodes>
+            <node>JavaFx.DashBoard</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/JavaFx.Buy">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>JavaFx.Buy</OriginalElement>
+          <nodes>
+            <node x="915.532554200542" y="33.0">JavaFx.Main</node>
+            <node x="330.375" y="910.0">JavaFx.OSlogin</node>
+            <node x="663.6062669376697" y="2450.0">JavaFx.UpdateInfo</node>
+            <node x="443.875" y="400.0">JavaFx.Staff</node>
+            <node x="977.4940718157184" y="1622.0">JavaFx.Buy</node>
+            <node x="937.0112127371276" y="2571.0">JavaFx.DashBoard</node>
+            <node x="804.8274051490517" y="1145.0">JavaFx.Controller</node>
+            <node x="0.0" y="0.0">JavaFx.AddStaff</node>
+            <node x="64.875" y="257.0">JavaFx.Owner</node>
+            <node x="558.5112127371276" y="2903.0">JavaFx.Profile</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="JavaFx.DashBoard" target="JavaFx.Main">
+              <point x="111.125" y="-70.5" />
+              <point x="1175.1362127371276" y="2430.0" />
+              <point x="1304.9940718157184" y="2430.0" />
+              <point x="1304.9940718157184" y="227.0" />
+              <point x="1064.932554200542" y="227.0" />
+              <point x="66.39999999999998" y="70.5" />
+            </edge>
+            <edge source="JavaFx.Buy" target="JavaFx.DashBoard">
+              <point x="39.625" y="379.0" />
+              <point x="1175.6190718157184" y="2410.0" />
+              <point x="1111.6362127371276" y="2410.0" />
+              <point x="47.625" y="-70.5" />
+            </edge>
+            <edge source="JavaFx.Profile" target="JavaFx.DashBoard">
+              <point x="113.33333333333326" y="-202.5" />
+              <point x="841.8445460704609" y="2873.0" />
+              <point x="1000.5112127371276" y="2873.0" />
+              <point x="-63.5" y="70.5" />
+            </edge>
+            <edge source="JavaFx.UpdateInfo" target="JavaFx.Profile">
+              <point x="61.0" y="191.5" />
+              <point x="846.6062669376697" y="2853.0" />
+              <point x="766.2889905149054" y="2853.0" />
+              <point x="37.77777777777783" y="-202.5" />
+            </edge>
+            <edge source="JavaFx.AddStaff" target="JavaFx.Profile">
+              <point x="-52.25" y="103.5" />
+              <point x="52.25" y="237.0" />
+              <point x="54.375" y="237.0" />
+              <point x="54.375" y="2883.0" />
+              <point x="577.4001016260165" y="2883.0" />
+              <point x="-151.1111111111111" y="-202.5" />
+            </edge>
+            <edge source="JavaFx.Buy" target="JavaFx.Main">
+              <point x="79.25" y="-379.0" />
+              <point x="1215.2440718157184" y="237.0" />
+              <point x="1031.732554200542" y="237.0" />
+              <point x="33.19999999999999" y="70.5" />
+            </edge>
+            <edge source="JavaFx.Owner" target="JavaFx.Profile">
+              <point x="-89.75" y="301.5" />
+              <point x="154.625" y="885.0" />
+              <point x="211.85626693766972" y="885.0" />
+              <point x="211.85626693766972" y="2873.0" />
+              <point x="615.1778794037943" y="2873.0" />
+              <point x="-113.33333333333326" y="-202.5" />
+            </edge>
+            <edge source="JavaFx.DashBoard" target="JavaFx.Buy">
+              <point x="-15.875" y="-70.5" />
+              <point x="1048.1362127371276" y="2400.0" />
+              <point x="1017.1190718157184" y="2400.0" />
+              <point x="-118.875" y="379.0" />
+            </edge>
+            <edge source="JavaFx.Owner" target="JavaFx.Main">
+              <point x="89.75000000000011" y="-301.5" />
+              <point x="334.1250000000001" y="227.0" />
+              <point x="932.132554200542" y="227.0" />
+              <point x="-66.4" y="70.5" />
+            </edge>
+            <edge source="JavaFx.DashBoard" target="JavaFx.Profile">
+              <point x="63.5" y="70.5" />
+              <point x="1127.5112127371276" y="2883.0" />
+              <point x="879.6223238482387" y="2883.0" />
+              <point x="151.1111111111111" y="-202.5" />
+            </edge>
+            <edge source="JavaFx.OSlogin" target="JavaFx.Staff">
+              <point x="51.75" y="-92.5" />
+              <point x="485.625" y="885.0" />
+              <point x="533.625" y="885.0" />
+              <point x="-89.75" y="158.5" />
+            </edge>
+            <edge source="JavaFx.Controller" target="JavaFx.OSlogin">
+              <point x="-58.75" y="-213.5" />
+              <point x="863.5774051490517" y="1120.0" />
+              <point x="485.625" y="1120.0" />
+              <point x="51.75" y="92.5" />
+            </edge>
+            <edge source="JavaFx.DashBoard" target="JavaFx.Controller">
+              <point x="-111.125" y="-70.5" />
+              <point x="952.8862127371276" y="2430.0" />
+              <point x="934.282554200542" y="2430.0" />
+              <point x="934.282554200542" y="1592.0" />
+              <point x="902.7440718157184" y="1592.0" />
+              <point x="-19.58333333333337" y="213.5" />
+            </edge>
+            <edge source="JavaFx.OSlogin" target="JavaFx.Owner">
+              <point x="-51.75" y="-92.5" />
+              <point x="382.125" y="885.0" />
+              <point x="334.125" y="885.0" />
+              <point x="89.75" y="301.5" />
+            </edge>
+            <edge source="JavaFx.Buy" target="JavaFx.Controller">
+              <point x="-79.25" y="-379.0" />
+              <point x="1056.7440718157184" y="1602.0" />
+              <point x="1020.2440718157184" y="1602.0" />
+              <point x="97.91666666666663" y="213.5" />
+            </edge>
+            <edge source="JavaFx.Profile" target="JavaFx.Controller">
+              <point x="75.55555555555554" y="-202.5" />
+              <point x="804.0667682926833" y="2863.0" />
+              <point x="918.1062669376697" y="2863.0" />
+              <point x="918.1062669376697" y="1602.0" />
+              <point x="863.5774051490517" y="1602.0" />
+              <point x="-58.75" y="213.5" />
+            </edge>
+            <edge source="JavaFx.Profile" target="JavaFx.UpdateInfo">
+              <point x="0.0" y="-202.5" />
+              <point x="728.5112127371276" y="2883.0" />
+              <point x="724.6062669376697" y="2883.0" />
+              <point x="-61.0" y="191.5" />
+            </edge>
+            <edge source="JavaFx.Owner" target="JavaFx.AddStaff">
+              <point x="-89.74999999999989" y="-301.5" />
+              <point x="154.6250000000001" y="237.0" />
+              <point x="156.75" y="237.0" />
+              <point x="52.25" y="103.5" />
+            </edge>
+            <edge source="JavaFx.Controller" target="JavaFx.Main">
+              <point x="58.75000000000003" y="-213.5" />
+              <point x="981.0774051490517" y="237.0" />
+              <point x="998.532554200542" y="237.0" />
+              <point x="0.0" y="70.5" />
+            </edge>
+            <edge source="JavaFx.UpdateInfo" target="JavaFx.Controller">
+              <point x="1.1368683772161603E-13" y="-191.5" />
+              <point x="785.6062669376698" y="1602.0" />
+              <point x="824.4107384823851" y="1602.0" />
+              <point x="-97.91666666666663" y="213.5" />
+            </edge>
+            <edge source="JavaFx.Controller" target="JavaFx.DashBoard">
+              <point x="58.75000000000003" y="213.5" />
+              <point x="981.0774051490517" y="1602.0" />
+              <point x="956.282554200542" y="1602.0" />
+              <point x="956.282554200542" y="2410.0" />
+              <point x="1016.3862127371276" y="2410.0" />
+              <point x="-47.625" y="-70.5" />
+            </edge>
+            <edge source="JavaFx.Staff" target="JavaFx.Main">
+              <point x="0.0" y="-158.5" />
+              <point x="623.375" y="237.0" />
+              <point x="965.3325542005421" y="237.0" />
+              <point x="-33.19999999999999" y="70.5" />
+            </edge>
+            <edge source="JavaFx.OSlogin" target="JavaFx.Profile">
+              <point x="-51.75" y="92.5" />
+              <point x="382.125" y="2863.0" />
+              <point x="652.9556571815722" y="2863.0" />
+              <point x="-75.55555555555554" y="-202.5" />
+            </edge>
+            <edge source="JavaFx.Staff" target="JavaFx.Profile">
+              <point x="89.75" y="158.5" />
+              <point x="713.125" y="885.0" />
+              <point x="653.1062669376697" y="885.0" />
+              <point x="653.1062669376697" y="2853.0" />
+              <point x="690.73343495935" y="2853.0" />
+              <point x="-37.777777777777715" y="-202.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="988.0" y="1542.0" />
+          <SelectedNodes>
+            <node>JavaFx.Buy</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/description.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="105" column="50" selection-start-line="60" selection-start-column="8" selection-end-line="105" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/CartLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="103" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="103" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interfaces/Login.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interfaces/Dashboard.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interfaces/Cart.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="123" column="96" selection-start-line="123" selection-start-column="96" selection-end-line="123" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/DashBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/Buy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5093">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setCartTotal#0;class#Buy#0" />
-            <element signature="method#setTotalItems#0;class#Buy#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaFx/Profile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="23" column="47" selection-start-line="23" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/DashBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reusables/CartLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/conectivity/ConnectionClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/SendInvoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1096">
+          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reusables/MessageBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/Owner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="281" selection-start-line="235" selection-end-line="281" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logFile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1938" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="114" column="52" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/Buy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6834">
+          <caret line="402" column="65" selection-start-line="402" selection-start-column="65" selection-end-line="402" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/OSlogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
